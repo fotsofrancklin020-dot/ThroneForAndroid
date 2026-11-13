@@ -20,12 +20,12 @@ import io.nekohasekai.sagernet.R
 import io.nekohasekai.sagernet.database.DataStore
 import io.nekohasekai.sagernet.databinding.LayoutUpdateBinding
 import io.nekohasekai.sagernet.ktx.launchCustomTab
-import io.nekohasekai.sagernet.ui.ThemedActivity
+import io.nekohasekai.sagernet.ui.ThemeActivity
 import io.nekohasekai.sagernet.update.UpdateManager.State
 import kotlinx.coroutines.launch
 
 /** The updater UI (a dialog): check result, download progress, verification and install, driven by [UpdateManager]. */
-class UpdateActivity : ThemedActivity() {
+class UpdateActivity : ThemeActivity() {
 
     companion object {
         fun start(context: Context) {
