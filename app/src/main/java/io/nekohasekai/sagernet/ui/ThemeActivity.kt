@@ -17,7 +17,7 @@ import io.nekohasekai.sagernet.R
 import io.nekohasekai.sagernet.utils.Theme
 import io.nekohasekai.sagernet.widget.applyTopInset
 
-abstract class ThemedActivity : AppCompatActivity {
+abstract class ThemeActivity : AppCompatActivity {
     constructor() : super()
     constructor(contentLayoutId: Int) : super(contentLayoutId)
 
