@@ -2,7 +2,7 @@ package io.nekohasekai.sagernet.widget
 
 import com.google.android.material.snackbar.Snackbar
 import io.nekohasekai.sagernet.R
-import io.nekohasekai.sagernet.ui.ThemedActivity
+import io.nekohasekai.sagernet.ui.ThemeActivity
 
 /**
  * @param activity ThemedActivity.
@@ -12,7 +12,7 @@ import io.nekohasekai.sagernet.ui.ThemedActivity
  * @tparam T Item type.
  */
 class UndoSnackbarManager<in T>(
-    private val activity: ThemedActivity,
+    private val activity: ThemeActivity,
     private val callback: Interface<T>,
 ) {
 
