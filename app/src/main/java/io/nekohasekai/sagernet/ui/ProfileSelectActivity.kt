@@ -5,7 +5,7 @@ import android.os.Bundle
 import io.nekohasekai.sagernet.R
 import io.nekohasekai.sagernet.database.ProxyEntity
 
-class ProfileSelectActivity : ThemedActivity(R.layout.layout_empty),
+class ProfileSelectActivity : ThemeActivity(R.layout.layout_empty),
     ConfigurationFragment.SelectCallback {
 
     companion object {
