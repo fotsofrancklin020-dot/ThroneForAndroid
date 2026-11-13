@@ -57,7 +57,7 @@ import moe.matsuri.nb4a.ui.SimpleMenuPreference
  * subscription options. The type is chosen only while creating; a new group is saved without being updated.
  * Fields live in the profile cache store while editing.
  */
-class GroupSettingsActivity : ThemedActivity(R.layout.layout_config_settings), OnPreferenceDataStoreChangeListener {
+class GroupSettingsActivity : ThemeActivity(R.layout.layout_config_settings), OnPreferenceDataStoreChangeListener {
 
     companion object {
         const val EXTRA_GROUP_ID = "id"
