@@ -65,9 +65,11 @@
 
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
+ 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
         style="@style/Widget.Design.NavigationView"
+        app:headerLayout="@layout/nav_header"
         app:insetForeground="@android:color/transparent"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -85,6 +87,7 @@
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view_black"
         style="@style/Widget.Design.NavigationView"
+        app:headerLayout="@layout/nav_header"
         app:insetForeground="@android:color/transparent"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -98,5 +101,6 @@
         app:itemShapeInsetBottom="3dp"
         app:itemTextColor="@color/navigation_icon"
         app:menu="@menu/main_drawer_menu" />
+
 
 </androidx.drawerlayout.widget.DrawerLayout>
