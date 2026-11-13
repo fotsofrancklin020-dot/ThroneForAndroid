@@ -4,15 +4,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/subscription_card"
-    style="@style/Widget.SagerNet.CardView.Tinted"
+    
+style="@style/Widget.SagerNet.CardView.Tinted"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="6dp"
     android:layout_marginTop="6dp"
     android:layout_marginEnd="6dp"
     android:visibility="gone"
+    app:cardBackgroundColor="#142544"
+    app:strokeColor="#263D8BDF"
+    app:strokeWidth="1dp"
     app:cardCornerRadius="@dimen/profile_card_corner_radius"
     tools:visibility="visible">
+
 
     <LinearLayout
         android:layout_width="match_parent"
