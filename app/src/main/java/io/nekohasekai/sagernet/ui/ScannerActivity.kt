@@ -32,7 +32,7 @@ import java.util.concurrent.atomic.AtomicBoolean
 import kotlin.math.max
 
 
-class ScannerActivity : ThemedActivity(),
+class ScannerActivity : ThemeActivity(),
     CameraScan.OnScanResultCallback {
 
     lateinit var binding: LayoutScannerBinding
