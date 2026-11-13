@@ -42,8 +42,7 @@ import kotlin.coroutines.coroutineContext
 /**
  * A multi-select package picker: [EXTRA_PACKAGES] carries the current selection in and the final one back out
  * (RESULT_OK on back or up). Selected packages that are not installed are listed too, so they survive a round trip.
- */
-class AppListActivity : ThemedActivity() {
+ */class AppListActivity : ThemeActivity() {
 
     companion object {
         const val EXTRA_PACKAGES = "packages"
