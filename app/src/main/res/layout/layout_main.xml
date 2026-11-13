@@ -69,6 +69,7 @@
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
         style="@style/Widget.Design.NavigationView"
+        android:background="#0B1630"
         app:headerLayout="@layout/nav_header"
         app:insetForeground="@android:color/transparent"
         android:layout_width="wrap_content"
@@ -87,6 +88,7 @@
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view_black"
         style="@style/Widget.Design.NavigationView"
+        android:background="#0B1630"
         app:headerLayout="@layout/nav_header"
         app:insetForeground="@android:color/transparent"
         android:layout_width="wrap_content"
