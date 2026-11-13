@@ -74,7 +74,7 @@ object DataStore : OnPreferenceDataStoreChangeListener {
     var networkChangeResetConnections by configurationStore.boolean(Key.NETWORK_CHANGE_RESET_CONNECTIONS) { true }
     var wakeResetConnections by configurationStore.boolean(Key.WAKE_RESET_CONNECTIONS) { true }
 
-    var appTheme by configurationStore.int(Key.APP_THEME)
+    var appTheme by configurationStore.int(Key.APP_THEME) { 7 }
     var useSystemTheme by configurationStore.boolean(Key.USE_SYSTEM_THEME)
     var nightTheme by configurationStore.stringToInt(Key.NIGHT_THEME)
     var amoledTheme by configurationStore.boolean(Key.AMOLED_THEME)
