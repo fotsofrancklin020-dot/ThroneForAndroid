@@ -31,7 +31,7 @@ import io.nekohasekai.sagernet.bg.SagerConnection
 import io.nekohasekai.sagernet.database.DataStore
 import io.nekohasekai.sagernet.ui.MainActivity
 import io.nekohasekai.sagernet.ui.MessageStore
-import io.nekohasekai.sagernet.ui.ThemedActivity
+import io.nekohasekai.sagernet.ui.ThemeActivity
 import kotlinx.coroutines.CancellableContinuation
 import kotlinx.coroutines.delay
 
@@ -135,7 +135,7 @@ fun Fragment.safeSnackbar(text: CharSequence) {
     Toast.makeText(app, text, Toast.LENGTH_LONG).show()
 }
 
-fun ThemedActivity.startFilesForResult(
+fun ThemeActivity.startFilesForResult(
     launcher: ActivityResultLauncher<String>, input: String
 ) {
     try {
@@ -154,7 +154,7 @@ fun Fragment.startFilesForResult(
     } catch (_: ActivityNotFoundException) {
     } catch (_: SecurityException) {
     }
-    (requireActivity() as ThemedActivity).snackbar(getString(R.string.file_manager_missing)).show()
+    (requireActivity() as ThemeActivity).snackbar(getString(R.string.file_manager_missing)).show()
 }
 
 fun Fragment.needReload() {
@@ -165,7 +165,7 @@ fun Fragment.needReload() {
     }
 }
 
-fun ThemedActivity.needReload() {
+fun ThemeActivity.needReload() {
     if (DataStore.serviceState.started) {
         snackbar(getString(R.string.need_reload)).setAction(R.string.apply) {
             SagerNet.reloadService()
