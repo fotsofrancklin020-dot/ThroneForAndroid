@@ -120,7 +120,7 @@ class ProfileListFragment : Fragment(R.layout.layout_profile_list) {
 
         val host = host
         if (host != null && !host.select) {
-            (activity as? ThemedActivity)?.let { undoManager = UndoSnackbarManager(it, adapter) }
+        (activity as? ThemeActivity)?.let { undoManager = UndoSnackbarManager(it, adapter) }
             attachDragHelper()
             driveBottomBar()
         }
