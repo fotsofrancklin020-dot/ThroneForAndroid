@@ -49,7 +49,7 @@ import kotlinx.coroutines.withContext
  * selector, the core's member table in rank order with the selected and pinned ones marked, and Use this profile /
  * Back to automatic / Check all now. Without a running selector the last build is listed with its URL-test results.
  */
-class AutoSelectorStatusActivity : ThemedActivity(), SagerConnection.Callback {
+class AutoSelectorStatusActivity : ThemeActivity(), SagerConnection.Callback {
 
     companion object {
         const val EXTRA_SELECTOR_ID = "selectorId"
