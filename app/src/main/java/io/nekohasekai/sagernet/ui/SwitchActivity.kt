@@ -8,7 +8,7 @@ import io.nekohasekai.sagernet.database.DataStore
 import io.nekohasekai.sagernet.database.ProfileManager
 import io.nekohasekai.sagernet.ktx.runOnMainDispatcher
 
-class SwitchActivity : ThemedActivity(R.layout.layout_empty),
+class SwitchActivity : ThemeActivity(R.layout.layout_empty),,
     ConfigurationFragment.SelectCallback {
 
     override val isDialog = true
