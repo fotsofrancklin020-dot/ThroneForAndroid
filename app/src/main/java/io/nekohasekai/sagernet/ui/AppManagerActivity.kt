@@ -52,7 +52,7 @@ import kotlin.coroutines.coroutineContext
  * Per-app proxy. Installed apps are selected by uid; stored packages the list cannot show (hidden, without INTERNET,
  * not installed, restored from a backup) are kept as rows of their own and written back untouched.
  */
-class AppManagerActivity : ThemedActivity() {
+class AppManagerActivity : ThemeActivity() {
     companion object {
         @SuppressLint("StaticFieldLeak")
         private var instance: AppManagerActivity? = null
