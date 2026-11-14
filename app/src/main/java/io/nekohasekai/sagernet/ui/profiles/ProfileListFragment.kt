@@ -25,7 +25,7 @@ import io.nekohasekai.sagernet.ktx.dp2px
 import io.nekohasekai.sagernet.ktx.runOnDefaultDispatcher
 import io.nekohasekai.sagernet.ui.ConfigurationFragment
 import io.nekohasekai.sagernet.ui.MainActivity
-import io.nekohasekai.sagernet.ui.ThemedActivity
+import io.nekohasekai.sagernet.ui.ThemeActivity
 import io.nekohasekai.sagernet.widget.UndoSnackbarManager
 import io.nekohasekai.sagernet.widget.applyListInsets
 import io.nekohasekai.sagernet.widget.updateBasePadding
