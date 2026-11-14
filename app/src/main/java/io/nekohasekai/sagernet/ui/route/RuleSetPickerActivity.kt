@@ -40,7 +40,7 @@ import kotlinx.coroutines.withContext
  * entries in and the selection back out (RESULT_OK on back or up); entries the list does not know stay selected and
  * are flagged at the top.
  */
-class RuleSetPickerActivity : ThemedActivity() {
+class RuleSetPickerActivity : ThemeActivity() {
 
     companion object {
         const val EXTRA_RULE_SETS = "ruleSets"
