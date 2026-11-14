@@ -24,7 +24,7 @@ import io.nekohasekai.sagernet.widget.applyListInsets
 import kotlinx.coroutines.launch
 import com.google.android.material.snackbar.Snackbar
 
-class WebDAVSettingsActivity : ThemedActivity() {
+class WebDAVSettingsActivity : ThemeActivity() {
     
     private lateinit var toolbar: Toolbar
 
