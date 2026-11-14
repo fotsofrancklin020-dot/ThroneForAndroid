@@ -29,7 +29,7 @@ import io.nekohasekai.sagernet.route.RuleIssue
 import io.nekohasekai.sagernet.route.RuleSetCatalog
 import io.nekohasekai.sagernet.route.RuleType
 import io.nekohasekai.sagernet.ui.AppListActivity
-import io.nekohasekai.sagernet.ui.ThemedActivity
+import io.nekohasekai.sagernet.ui.ThemeActivity
 import io.nekohasekai.sagernet.ui.ValidationForm
 import io.nekohasekai.sagernet.ui.WifiPermissionFlow
 import io.nekohasekai.sagernet.ui.profile.multilineInput
@@ -52,8 +52,7 @@ import moe.matsuri.nb4a.ui.SimpleMenuPreference
  * as [EXTRA_RULE] (RouteJson) with its list position [EXTRA_INDEX] (-1 for a new rule) and goes back the same way
  * with RESULT_OK, or [RESULT_DELETE]. Fields are bound to the profile cache store by their member names.
  */
-class RouteRuleActivity : ThemedActivity(R.layout.layout_config_settings), OnPreferenceDataStoreChangeListener {
-
+class RouteRuleActivity : ThemeActivity(R.layout.layout_config_settings), OnPreferenceDataStoreChangeListener {
     companion object {
         const val EXTRA_RULE = "rule"
         const val EXTRA_INDEX = "index"
