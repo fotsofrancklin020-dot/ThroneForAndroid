@@ -51,7 +51,7 @@ import io.nekohasekai.sagernet.route.RuleSetCatalog
 import io.nekohasekai.sagernet.route.RuleType
 import io.nekohasekai.sagernet.ui.DnsServerSuggestions
 import io.nekohasekai.sagernet.ui.FormIssue
-import io.nekohasekai.sagernet.ui.ThemedActivity
+import io.nekohasekai.sagernet.ui.ThemeActivity
 import io.nekohasekai.sagernet.ui.ValidationForm
 import io.nekohasekai.sagernet.utils.PackageCache
 import io.nekohasekai.sagernet.validation.Empty
@@ -69,7 +69,7 @@ import java.util.IdentityHashMap
  * (drag to reorder, swipe to delete, tap to edit in [RouteRuleActivity], tick to enable). Edits stay in memory until
  * Apply; the result carries the saved id as [EXTRA_SAVED_ID].
  */
-class RouteProfileActivity : ThemedActivity(R.layout.layout_route_profile) {
+class RouteProfileActivity : ThemeActivity(R.layout.layout_route_profile) {
 
     companion object {
         const val EXTRA_PROFILE_ID = "id"
