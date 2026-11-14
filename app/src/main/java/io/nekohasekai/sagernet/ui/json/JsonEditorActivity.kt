@@ -32,7 +32,7 @@ import io.nekohasekai.sagernet.database.DataStore
 import io.nekohasekai.sagernet.databinding.ItemJsonProblemBinding
 import io.nekohasekai.sagernet.databinding.LayoutJsonEditorBinding
 import io.nekohasekai.sagernet.ktx.Logs
-import io.nekohasekai.sagernet.ui.ThemedActivity
+import io.nekohasekai.sagernet.ui.ThemeActivity
 import io.nekohasekai.sagernet.ui.json.engine.JsonFormatter
 import io.nekohasekai.sagernet.ui.json.engine.JsonIssue
 import io.nekohasekai.sagernet.ui.json.engine.JsonSpan
@@ -57,7 +57,7 @@ import kotlin.math.max
  * profile cache or, with [EXTRA_USE_CONFIG_STORE], of the configuration store, and writes it back formatted on Apply.
  * Syntax errors block saving; schema problems only ask ("save anyway?").
  */
-class JsonEditorActivity : ThemedActivity() {
+class JsonEditorActivity : ThemeActivity() {
 
     companion object {
         const val EXTRA_KEY = "key"
