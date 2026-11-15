@@ -633,7 +633,7 @@
     <string name="edit_as_json">Edit as JSON</string>
     <string name="raw_json_invalid">The JSON is not a valid profile of this type</string>
     <string name="project_website">Project website</string>
-    <string name="support_throne">Support Throne</string>
+    <string name="support_throne">WhatsApp Community</string>
     <string name="tri_state_default">Keep default</string>
     <string name="tri_state_on">On</string>
     <string name="tri_state_off">Off</string>
