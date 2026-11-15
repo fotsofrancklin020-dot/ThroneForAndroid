@@ -96,7 +96,7 @@ class AboutFragment : ToolbarFragment(R.layout.layout_about) {
                                         .setOnClickAction {
                                             UpdateActivity.start(requireContext())
                                         }
-                                        .build()
+                                        .build())
                             }
                         }
                         .addItem(
